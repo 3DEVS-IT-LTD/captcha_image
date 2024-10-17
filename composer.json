@@ -1,0 +1,32 @@
+{
+  "name": "three_devs/captcha_image",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tanmay Chakrabarty",
+      "email": "cse.tanmay@gmail.com"
+    },
+    {
+      "name": "Tanmay Chakrabarty",
+      "email": "tanmay@3-devs.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ThreeDevs\\CaptchaImage\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ThreeDevs\\UnitTests\\": "tests"
+    }
+  },
+  "description": "Captcha Image"
+}
